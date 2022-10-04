@@ -1,4 +1,4 @@
 
 export function compute (x: number) {
-    return -1;
+    return 0;
 }
