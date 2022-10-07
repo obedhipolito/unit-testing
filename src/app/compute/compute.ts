@@ -1,4 +1,14 @@
 
 export function compute (x: number) {
-    return 0;
+    let base = 1;
+  
+    if ( x == -1) {
+      base = 0;
+    }
+  
+    if (x == 1 ){
+      base = 2;
+    }
+
+    return base
 }
